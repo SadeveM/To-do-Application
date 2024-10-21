@@ -70,3 +70,18 @@ body {
 .checked {
     text-decoration: line-through;
 }
+
+span {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+span:hover {
+    background-color: rgb(138, 138, 138);
+}
