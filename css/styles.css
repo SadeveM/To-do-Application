@@ -1,9 +1,25 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom right, blue, purple);
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgb(15, 15, 15);
+    margin: 100px auto 30px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h2 {
+    color: rgb(255, 89, 69);
+    font-size: 30px;
 }
