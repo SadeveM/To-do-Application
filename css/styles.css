@@ -18,7 +18,7 @@ body {
     max-width: 500px;
     background-color: rgb(15, 15, 15);
     margin: 100px auto 30px;
-    padding: 40px 30px 70px;
+    padding: 40px 30px 30px;
     border-radius: 10px;
 }
 
@@ -55,4 +55,18 @@ body {
     border-radius: 20px;
 
     cursor: pointer;
+}
+
+.todo-app li {
+    margin-top: 15px;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.checked {
+    text-decoration: line-through;
 }
