@@ -45,6 +45,7 @@ todoList.addEventListener("click", (e) => {
             e.target.innerHTML = "\u2713"
         else
             e.target.innerHTML = ""
+        saveData();
     }
 }) 
 
