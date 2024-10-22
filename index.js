@@ -49,6 +49,12 @@ todoList.addEventListener("click", (e) => {
     }
 }) 
 
+inputBox.addEventListener("keydown", (event) => {
+    if (event.key == "Enter"){
+        addTask();
+    }
+})
+
 function saveData() {
     localStorage.setItem("data", todoList.innerHTML);
 }
