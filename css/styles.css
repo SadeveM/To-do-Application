@@ -14,7 +14,6 @@ body {
 }
 
 .todo-app {
-    width: 100%;
     max-width: 500px;
     background-color: rgb(15, 15, 15);
     margin: 100px auto 30px;
@@ -112,4 +111,60 @@ body {
 
 .cross-btn:hover {
     background-color: rgb(138, 138, 138);
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 95%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom right, blue, purple);
+    }    
+
+    .todo-app {
+        width: 200px;
+        background-color: rgb(15, 15, 15);
+        margin: 100px auto 30px;
+        padding: 40px 30px 30px;
+        border-radius: 10px;
+    }
+
+    .todo-app li {
+        margin-top: 20px;
+        cursor: pointer;
+        user-select: none;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        width: 180px;
+        
+        display: flex;
+        align-items: center;
+    
+        word-break: break-all;
+    }
+
+    .cross-btn {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        font-size: 21px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        left: 130px;
+    }
+    
+    .tick-btn {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid  rgb(255, 89, 69);
+        color: white;
+        right: 190px;
+    }
 }
